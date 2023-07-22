@@ -45,7 +45,7 @@ word2vecModel.compile(
 word2vecModel.fit(
     x=X,
     y=y,
-    epochs=1
+    epochs=100 # editable
 )
 
 
